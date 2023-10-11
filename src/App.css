@@ -506,6 +506,10 @@ footer {
 
 
 @media screen and (max-width: 768px){
+
+  #about {
+    margin-top: 4rem;
+  }
   #desktop-nav {
     display: none;
 
