@@ -13,12 +13,12 @@ const Projects = () => {
     window.open("https://shop-see.vercel.app/");
   };
 
-  const goToChatAppGithub = () => {
-    window.open("https://github.com/yvrjbhatiya/Chat_App");
+  const goToQuizAppGithub = () => {
+    window.open("https://github.com/yvrjbhatiya/Quiz-App");
   };
 
-  const goToChatAppLiveDemo = () => {
-    window.open("https://chat-app-rho-ivory.vercel.app/");
+  const goToQuizAppLiveDemo = () => {
+    window.open("https://quiz-app-flax-six.vercel.app/");
   };
 
   const goToWeatherFinderMiniGithub = () => {
@@ -106,23 +106,23 @@ const Projects = () => {
                   className="project-img"
                 />
               </div>
-              <h2 className="experience-sub-title project-title">Chat App</h2>
+              <h2 className="experience-sub-title project-title">Quiz App</h2>
               <p>
-                The Chat App, built with React, Node.js, and MongoDB, offers
-                Google authentication for easy login, real-time messaging, and
-                dark/light theme options
+                Quiz App, built with React and Tailwind, offers random
+                questions, instant feedback, and score tracking for engaging
+                knowledge and interactive learning.
               </p>
               <br />
               <div className="btn-container">
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick={goToChatAppGithub}
+                  onClick={goToQuizAppGithub}
                 >
                   Github
                 </button>
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick={goToChatAppLiveDemo}
+                  onClick={goToQuizAppLiveDemo}
                 >
                   Live Demo
                 </button>
