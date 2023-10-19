@@ -11,6 +11,10 @@ const Profile = () => {
   const goToGithub = () => {
     window.open("https://github.com/yvrjbhatiya");
   };
+
+  const goToResume = () => {
+    window.open("https://drive.google.com/file/d/12vWK1FfmBsV__3w3eI4CeI4_Zi2LV5nX/view?usp=share_link");
+  }
   
 return (
   <section id="profile">
@@ -24,7 +28,7 @@ return (
       <div className="btn-container">
         <button
           className="btn btn-color-2"
-          onClick={() => window.open("./assets/yvrjresume.pdf")}
+          onClick={goToResume}
         >
           Download CV
         </button>
