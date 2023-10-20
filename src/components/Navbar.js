@@ -1,46 +1,71 @@
-import React, { useState } from 'react';
-import OpenIMG from "../img/open.png";
-import CloseIMG from "../img/close.png";
+import { useState } from "react";
+import "../dist/styles.css";
+import { IconMenu2, IconX } from "@tabler/icons-react";
 
-const Header = () => {
-  const [isMenuOpen, setMenuOpen] = useState(false);
+function Navbar() {
+  const [hamburger, setHamburger] = useState(false);
 
-  const toggleMenu = () => {
-    console.log('open')
-    setMenuOpen(!isMenuOpen);
+  const hamburgerMenu = () => {
+    setHamburger(!hamburger);
   };
 
-  return (
-    <header>
-      <nav id="desktop-nav">
-        <div className="logo">Yuvraj</div>
-        <div>
-          <ul className="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <nav id="hamburger-nav">
-        <div className="logo">Yuvraj</div>
-        <div className="hamburger-menu">
-          <div className={`hamburger-icon ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
-            <img src={isMenuOpen ?  OpenIMG : CloseIMG} alt="Menu Icon" />
-          </div>
-          {isMenuOpen && (
-            <div className="menu-links">
-              <ul>
-                <li><a href="#about" onClick={toggleMenu}>About</a></li>
-                <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
-                <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
-              </ul>
-            </div>
-          )}
-        </div>
-      </nav>
-    </header>
-  );
-};
+  const pageUp = () => {
+    window.scrollTo({ top: (0, 0), behavior: "smooth" });
+  };
 
-export default Header;
+  const navlinks = [
+    {
+      name: "Home",
+      link: "#home",
+    },
+    {
+      name: "About",
+      link: "#about",
+    },
+    {
+      name: "Projects",
+      link: "#projects",
+    },
+    {
+      name: "Contact",
+      link: "#contact",
+    },
+  ];
+
+  return (
+    <>
+      <nav>
+        <h3 onClick={pageUp} className="logo">
+          ysb
+        </h3>
+        <ul>
+          {navlinks.map((item) => (
+            <li key={item.name}>
+              <a href={item.link}>{item.name}</a>
+            </li>
+          ))}
+          <li onClick={() => hamburgerMenu()}>
+            <IconMenu2 className="mobile-menu" width={30} height={30} />
+          </li>
+        </ul>
+      </nav>
+
+      {/* mobile nav */}
+      <div className={`mobile-nav ${hamburger ? "open-menu" : "closed-menu"}`}>
+        <span onClick={() => hamburgerMenu()}>
+          <IconX width={30} height={30} />
+        </span>
+
+        <ul>
+          {navlinks.map((item) => (
+            <li key={item.name} onClick={() => hamburgerMenu()}>
+              <a href={item.link}>{item.name}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
+  );
+}
+
+export default Navbar;

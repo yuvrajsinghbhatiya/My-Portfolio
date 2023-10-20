@@ -1,4 +1,4 @@
-# Portfolio Website - Your Name
+# Portfolio Website
 
 Welcome to my portfolio website! This is a showcase of my skills, projects, and experiences. Explore my work, learn about my journey, and get in touch for collaboration opportunities.
 
@@ -6,7 +6,6 @@ Welcome to my portfolio website! This is a showcase of my skills, projects, and 
 
 - **React**: Our frontend is built using React, a popular and powerful JavaScript library for building user interfaces.
 
-- **Tailwind CSS**: We use Tailwind CSS for styling, which allows us to create responsive and visually appealing designs effortlessly.
 
 ## Key Sections
 

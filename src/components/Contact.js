@@ -1,25 +1,42 @@
-import React from 'react';
-import EmailIMG from "../img/email.png";
-import LinkedInIMG from "../img/linkedin.png";
+import { IconMail, IconMapSearch } from "@tabler/icons-react";
 
-const Contact = () => {
+function Contact() {
   return (
-    <section id="contact">
-      <div className="section__text">
-        <p className="section__text__p1">Get in Touch</p>
-        <h1 className="title">Contact Me</h1>
-        <div className="contact-info-upper-container">
-          <div className="contact-info-container">
-            <img src={EmailIMG} alt="Email icon" className="icon contact-icon email-icon" />
-            <p><a href="mailto:yuvrajbhatiya57@gmail.com">yuvrajbhatiya57@gmail.com</a></p>
-          </div>
-          <div className="contact-info-container">
-            <img src={LinkedInIMG} alt="LinkedIn icon" className="icon contact-icon" />
-            <p><a href="https://www.linkedin.com/in/yvrjbhatiya/">LinkedIn</a></p>
+    <>
+      <section id="contact" className="contact">
+        <div className="container">
+          <div className="contact__content">
+            <div className="contact__title">
+              <p>contact</p>
+              <h3>I'm just a click away. Reach out! 📞</h3>
+            </div>
+            <div className="contact__icons">
+              <div className="contact__icon-box">
+                <span>
+                  <IconMapSearch width={30} height={30} />
+                </span>
+                <div className="contact__info">
+                  <h3>Location</h3>
+                  <p>Uttarakhand, India</p>
+                </div>
+              </div>
+
+              <div className="contact__icon-box">
+                <span>
+                  <IconMail width={30} height={30} />
+                </span>
+                <div className="contact__info">
+                  <h3>Mail</h3>
+                  <a href="mailto:stefan.topallovic@gmail.com">
+                    yuvrajbhatiya57@gmail.com
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
 
