@@ -586,7 +586,7 @@ nav ul a:hover {
 }
 @media (max-width: 1020px) {
   .projects-grid .pro__1 {
-    height: 75rem;
+    height: auto;
     flex-direction: column !important;
     gap: 3rem;
     width: -moz-fit-content;
