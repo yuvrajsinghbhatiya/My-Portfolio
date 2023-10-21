@@ -38,9 +38,9 @@ function ProBox({
           </h3>
           <p>{description}</p>
           <div className="stack">
-            <p>{techno1}</p>
-            <p>{techno2}</p>
-          </div>
+          {techno1 && <p>{techno1}</p>}
+          {techno2 && <p>{techno2}</p>}
+        </div>
           <div className="links">
             <a target="_blank" href={code} rel="noreferrer">
               Code <IconBrandGithub />

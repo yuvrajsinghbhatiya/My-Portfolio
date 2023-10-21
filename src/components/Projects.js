@@ -1,5 +1,6 @@
-import ShopseeIMG from "../images/shopsee.webp";
 import ProBox from "./ProBox";
+import ShopseeIMG from "../images/shopsee.webp";
+import BitTrackrIMG from "../images/bittrackr.webp";
 import WeatherIMG from "../images/weather.webp";
 import QuizIMG from "../images/quiz.webp";
 
@@ -20,6 +21,16 @@ function Projects() {
                 techno2="Tailwind CSS"
                 code="https://github.com/yvrjbhatiya/Shop-See"
                 demo="https://shop-see.vercel.app/"
+              />
+
+              <ProBox
+                title="BitTrackr"
+                img={BitTrackrIMG}
+                description="BitTrackr is a crypto app that provides users with real-time, accurate updates on cryptocurrency prices, market caps, trading volumes, and other key metrics."
+                techno1="React"
+                techno2=""
+                code="https://github.com/yvrjbhatiya/BitTrackr"
+                demo="https://bit-trackr.vercel.app/"
               />
 
               <ProBox
@@ -44,7 +55,6 @@ function Projects() {
               />
             </div>
           </div>
-         
         </div>
       </section>
     </>
