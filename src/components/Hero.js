@@ -11,7 +11,7 @@ const skillsIcons = [
     id: 2,
   },
   {
-    img: "https://skillicons.dev/icons?i=react",
+    img: "https://skillicons.dev/icons?i=react,git",
     id: 3,
   },
 ];
