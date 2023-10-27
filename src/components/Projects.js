@@ -31,6 +31,7 @@ function Projects() {
                 techno2=""
                 code="https://github.com/yvrjbhatiya/BitTrackr"
                 demo="https://bit-trackr.vercel.app/"
+                scrollY="-57%"
               />
 
               <ProBox
