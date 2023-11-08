@@ -21,7 +21,7 @@ function Projects() {
                 techno2="Tailwind CSS"
                 code="https://github.com/yvrjbhatiya/Shop-See"
                 demo="https://shop-see.vercel.app/"
-                scrollY="-60.5%"
+                scrollY="-68%"
               />
 
               <ProBox
