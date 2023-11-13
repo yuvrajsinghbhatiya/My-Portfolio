@@ -3,15 +3,27 @@ import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
 
 const skillsIcons = [
   {
-    img: "https://skillicons.dev/icons?i=html,css",
+    img: "https://skillicons.dev/icons?i=html",
     id: 1,
   },
   {
-    img: "https://skillicons.dev/icons?i=tailwind,js",
+    img: "https://skillicons.dev/icons?i=css",
+    id: 1,
+  },
+  {
+    img: "https://skillicons.dev/icons?i=tailwind",
     id: 2,
   },
   {
-    img: "https://skillicons.dev/icons?i=react,git",
+    img: "https://skillicons.dev/icons?i=js",
+    id: 2,
+  },
+  {
+    img: "https://skillicons.dev/icons?i=react",
+    id: 3,
+  },
+  {
+    img: "https://skillicons.dev/icons?i=git",
     id: 3,
   },
 ];
@@ -58,9 +70,7 @@ function Hero() {
               <div className="logos">
                 <ul>
                   {skillsIcons.map((icon) => (
-                    <li key={icon.id}>
-                      <img src={icon.img} alt="skill-icon" />
-                    </li>
+                      <img src={icon.img} key={icon.id} alt="skill-icon" />
                   ))}
                 </ul>
               </div>
