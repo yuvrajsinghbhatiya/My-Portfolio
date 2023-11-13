@@ -33,6 +33,7 @@ function Projects() {
                 code="https://github.com/yvrjbhatiya/BitTrackr"
                 demo="https://bit-trackr.vercel.app/"
                 scrollY="-57%"
+                cName="reversed-proj"
               />
 
               <ProBox
@@ -43,7 +44,6 @@ function Projects() {
                 techno2="Tailwind CSS"
                 code="https://github.com/yvrjbhatiya/Weather-Finder"
                 demo="https://weather-finder-seven.vercel.app/"
-                cName="reversed-proj"
               />
 
               <ProBox
@@ -54,6 +54,7 @@ function Projects() {
                 techno2="Tailwind CSS"
                 code="https://github.com/yvrjbhatiya/Quiz-App"
                 demo="https://quiz-app-flax-six.vercel.app/"
+                cName="reversed-proj"
               />
             </div>
           </div>
