@@ -150,6 +150,11 @@ nav ul {
   list-style: none;
   gap: 2rem;
 }
+nav ul li:hover{
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+  color: #8b98ad;
+}
 nav ul a {
   color: #2d2e32;
   text-decoration: none;
@@ -531,132 +536,149 @@ nav ul a:hover {
 
 .project {
   background-color: #f9f9f9;
-  padding: 15rem 0;
+  padding: 15rem 0
 }
+
 @media (max-width: 1020px) {
   .project {
-    padding: 8rem 0;
+      padding:8rem 0
   }
 }
 
 .project-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: column
 }
+
 @media (max-width: 600px) {
   .project-content {
-    text-align: center;
+      text-align:center
   }
 }
+
 .project-content p {
   color: #8b98ad;
   font-size: 3rem;
-  text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 1rem;
+  text-transform: uppercase
 }
+
 .project-content h3 {
-  font-size: 2rem;
   color: #2d2e32db;
-  margin-bottom: 6rem;
+  font-size: 2rem;
+  margin-bottom: 6rem
 }
 
 .projects-grid {
+  grid-gap: 5rem;
   display: grid;
+  gap: 5rem;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
-  width: 100%;
   height: auto;
-  gap: 5rem;
+  width: 100%
 }
+
 .projects-grid .pro {
-  display: flex;
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  background-color: #fff;
   border-radius: 1rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  display: flex
 }
+
 .projects-grid .pro__1 {
-  height: 40rem;
   flex-direction: row;
-  padding: 2rem;
   gap: 8rem;
+  height: 40rem;
+  padding: 2rem
 }
+
 @media (max-width: 1020px) {
   .projects-grid .pro__1 {
-    height: auto;
-    flex-direction: column !important;
-    gap: 3rem;
-    width: -moz-fit-content;
-    width: fit-content;
-    margin: 0 auto;
+      flex-direction:column!important;
+      gap: 3rem;
+      height: 75rem;
+      margin: 0 auto;
+      width: -moz-fit-content;
+      width: -webkit-fit-content;
+      width: fit-content
   }
 }
+
 @media (max-width: 400px) {
   .projects-grid .pro__1 {
-    width: 100%;
+      width:100%
   }
 }
+
 .projects-grid .pro__img {
-  width: 53rem;
-  height: auto;
+  background-color: hsla(0,0%,46%,.2);
   border-radius: .8rem;
-  background-color: rgba(118, 118, 118, 0.2);
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  height: auto;
   overflow: hidden;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 53rem
 }
+
 @media (max-width: 650px) {
   .projects-grid .pro__img {
-    width: 100%;
+      width:100%
   }
 }
+
 .projects-grid .pro__img img {
-  width: 100%;
   height: auto;
+  width: 100%
 }
 
 .projects-grid .pro__text {
   display: flex;
-  width: 30rem;
-  height: auto;
   flex-direction: column;
-  text-align: center;
+  height: auto;
   justify-content: center;
-}
-@media (max-width: 1020px) {
-  .projects-grid .pro__text {
-    margin: 0 auto;
-  }
-}
-@media (max-width: 400px) {
-  .projects-grid .pro__text {
-    width: 100%;
-  }
-}
-.projects-grid .pro__text img {
-  width: 7rem;
-  position: absolute;
-  top: -2px;
-  right: -19px;
-}
-.projects-grid .pro__text h3 {
-  font-size: 2.2rem;
-  text-transform: uppercase;
-  color: #2d2e32;
-  margin-bottom: 2rem;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.2rem;
-}
-.projects-grid .pro__text p {
-  font-size: 1.7rem;
-  color: #767676;
   text-align: center;
-  text-transform: none;
-  font-weight: 500;
+  width: 30rem
 }
 
+@media (max-width: 1020px) {
+  .projects-grid .pro__text {
+      margin:0 auto
+  }
+}
+
+@media (max-width: 400px) {
+  .projects-grid .pro__text {
+      width:100%
+  }
+}
+
+.projects-grid .pro__text img {
+  position: absolute;
+  right: -19px;
+  top: -2px;
+  width: 7rem
+}
+
+.projects-grid .pro__text h3 {
+  align-items: center;
+  color: #2d2e32;
+  display: flex;
+  font-size: 1.7rem;
+  gap: .2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  position: relative;
+  text-transform: uppercase
+}
+
+.projects-grid .pro__text p {
+  color: #767676;
+  font-size: 1.7rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: none
+}
 .stack {
   display: flex;
   gap: 1rem;
@@ -699,8 +721,9 @@ nav ul a:hover {
   width: 3.5rem;
 }
 .links a:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
   color: #8b98ad;
-  transition: all 0.3s;
 }
 
 .reversed-proj {
@@ -785,7 +808,7 @@ nav ul a:hover {
   align-items: center;
   justify-content: center;
   height: 5rem;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
   border-radius: 50%;
   color: #8b98ad;
 }
