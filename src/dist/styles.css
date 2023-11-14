@@ -326,12 +326,13 @@ nav ul a:hover {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  border: 3px solid #2d2e32;
+  border: 2px solid #2d2e32;
   animation: morph 8s ease-in-out infinite;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   position: relative;
   transition: all 1s ease-in-out;
 }
+
 @media (max-width: 500px) {
   .hero-img {
     width: 28rem;
@@ -587,12 +588,13 @@ nav ul a:hover {
 }
 @media (max-width: 1020px) {
   .projects-grid .pro__1 {
-    height: auto;
-    flex-direction: column !important;
+    flex-direction: column!important;
     gap: 3rem;
-    width: -moz-fit-content;
-    width: fit-content;
+    height: 75rem;
     margin: 0 auto;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
   }
 }
 @media (max-width: 400px) {
@@ -673,7 +675,6 @@ nav ul a:hover {
   border-radius: .8rem;
   font-weight: 600 !important;
   background-color: #e8ebf1;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 1rem 1.3rem;
   font-family: "Mulish", sans-serif !important;
 }
@@ -684,6 +685,7 @@ nav ul a:hover {
   margin-top: 3rem;
   gap: 1rem;
   align-items: center;
+
 }
 .links a {
   font-size: 1.7rem;
