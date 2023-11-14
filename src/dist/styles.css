@@ -86,7 +86,11 @@ body {
   width: 100%;
   height: 100vh;
   z-index: 300;
-  background: linear-gradient(45deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  background: linear-gradient(
+    45deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
   position: fixed;
   top: 0;
   left: 0;
@@ -105,7 +109,6 @@ body {
 .mobile-nav span:hover {
   color: #8b98ad;
   transition: all 0.3s;
-  
 }
 .mobile-nav ul {
   display: flex;
@@ -160,9 +163,6 @@ nav ul a {
     display: none;
   }
 }
-nav ul a:hover {
-  color: #8b98ad;
-}
 
 .logo {
   cursor: pointer;
@@ -174,7 +174,11 @@ nav ul a:hover {
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
   position: relative;
 }
 @media (max-width: 900px) {
@@ -459,7 +463,6 @@ nav ul a:hover {
 .text-side h4 {
   color: #2d2e32db;
   font-size: 2rem;
-  font-family: "Mulish", sans-serif;
   margin-bottom: 4rem;
 }
 .text-side p {
@@ -532,7 +535,6 @@ nav ul a:hover {
   }
 }
 
-
 .project {
   background-color: #f9f9f9;
   padding: 15rem 0;
@@ -562,7 +564,6 @@ nav ul a:hover {
 .project-content h3 {
   color: #2d2e32db;
   font-size: 2rem;
-  font-family: "Mulish", sans-serif;
   margin-bottom: 6rem;
 }
 
@@ -588,9 +589,9 @@ nav ul a:hover {
 }
 @media (max-width: 1020px) {
   .projects-grid .pro__1 {
-    flex-direction: column!important;
+    flex-direction: column !important;
     gap: 3rem;
-    height: 75rem;
+    height: 65rem;
     margin: 0 auto;
     width: -moz-fit-content;
     width: -webkit-fit-content;
@@ -672,7 +673,7 @@ nav ul a:hover {
 }
 .stack p {
   color: black !important;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
   font-weight: 600 !important;
   background-color: #e8ebf1;
   padding: 1rem 1.3rem;
@@ -685,7 +686,6 @@ nav ul a:hover {
   margin-top: 3rem;
   gap: 1rem;
   align-items: center;
-
 }
 .links a {
   font-size: 1.7rem;
@@ -695,6 +695,11 @@ nav ul a:hover {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.links a:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
 }
 .links a i {
   font-size: 2.8rem;
@@ -760,7 +765,6 @@ nav ul a:hover {
 .contact__title h3 {
   color: #2d2e32db;
   font-size: 2rem;
-  font-family: "Mulish", sans-serif;
 }
 .contact__icons {
   display: flex;
@@ -820,7 +824,11 @@ nav ul a:hover {
 }
 
 footer {
-  background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
   padding: 3rem 0;
   width: 100%;
   box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.05);

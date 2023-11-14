@@ -11,7 +11,7 @@ function AboutMe() {
             </div>
             <div className="text-side">
               <h3>About me</h3>
-              {/* <h4>A dedicated Front-end Developer 💻</h4> */}
+              <h4>A dedicated Front-end Developer 💻</h4>
               <p>
                 As a Front-End Developer equipped with a diverse skill set in{" "}
                 <strong>HTML</strong>, <strong>CSS</strong>,{" "}

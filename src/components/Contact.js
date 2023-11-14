@@ -8,7 +8,7 @@ function Contact() {
           <div className="contact__content">
             <div className="contact__title">
               <p>contact</p>
-              {/* <h3>I'm just a click away. Reach out! 📞</h3> */}
+              <h3>I'm just a click away. Reach out! 📞</h3>
             </div>
             <div className="contact__icons">
               <div className="contact__icon-box">

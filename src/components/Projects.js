@@ -11,7 +11,7 @@ function Projects() {
         <div className="container">
           <div className="project-content">
             <p>projects</p>
-            {/* <h3>Unique development, making your ideas come to life 🧑🏻‍💻</h3> */}
+            <h3>Unique development, making your ideas come to life 🧑🏻‍💻</h3>
             <div className="projects-grid">
               <ProBox
                 title="Shop See"
