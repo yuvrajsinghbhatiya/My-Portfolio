@@ -158,6 +158,17 @@ nav ul a {
   transition: all 0.23s;
   font-weight: 600;
 }
+
+nav ul a:hover{
+  color: #8b98ad;
+}
+
+nav ul li:hover{
+  color: #8b98ad;
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+
 @media (max-width: 900px) {
   nav ul a {
     display: none;
