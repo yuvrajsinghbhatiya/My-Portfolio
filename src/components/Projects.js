@@ -2,7 +2,7 @@ import ProBox from "./ProBox";
 import ShopseeIMG from "../images/shopsee.webp";
 import BitTrackrIMG from "../images/bittrackr.webp";
 import WeatherIMG from "../images/weather.webp";
-import QuizIMG from "../images/quiz.webp";
+import CarRentalIMG from "../images/carrental.webp";
 
 function Projects() {
   return (
@@ -37,6 +37,18 @@ function Projects() {
               />
 
               <ProBox
+                title="Car Rental"
+                img={CarRentalIMG}
+                description="Car Rental is a simple website that allows users to rent a car. It is built with HTML, CSS, and JavaScript, and is fully responsive on all devices."
+                techno1="HTML"
+                techno2="CSS"
+                techno3="JavaScript"
+                code="https://github.com/yvrjbhatiya/Car-Rental"
+                demo="https://car-rental-topaz-six.vercel.app/"
+                scrollY="-74%"
+              />
+
+              <ProBox
                 title="Weather Finder"
                 img={WeatherIMG}
                 description="Weather Finder delivers precise updates globally, ensuring a user-friendly experience. Integrated with a robust API, it offers reliable and swift weather forecasts anywhere."
@@ -44,16 +56,6 @@ function Projects() {
                 techno2="Tailwind CSS"
                 code="https://github.com/yvrjbhatiya/Weather-Finder"
                 demo="https://weather-finder-seven.vercel.app/"
-              />
-
-              <ProBox
-                title="Quiz App"
-                img={QuizIMG}
-                description="Quiz App featuring random questions, instant feedback, and score tracking. Engage in interactive learning with this user-friendly application."
-                techno1="React"
-                techno2="Tailwind CSS"
-                code="https://github.com/yvrjbhatiya/Quiz-App"
-                demo="https://quiz-app-flax-six.vercel.app/"
                 cName="reversed-proj"
               />
             </div>

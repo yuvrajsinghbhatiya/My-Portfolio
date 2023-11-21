@@ -7,6 +7,7 @@ function ProBox({
   description,
   techno1,
   techno2,
+  techno3,
   code,
   demo,
   scrollY,
@@ -38,9 +39,10 @@ function ProBox({
           </h3>
           <p>{description}</p>
           <div className="stack">
-          {techno1 && <p>{techno1}</p>}
-          {techno2 && <p>{techno2}</p>}
-        </div>
+            {techno1 && <p>{techno1}</p>}
+            {techno2 && <p>{techno2}</p>}
+            {techno3 && <p>{techno3}</p>}
+          </div>
           <div className="links">
             <a target="_blank" href={code} rel="noreferrer">
               Code <IconBrandGithub />

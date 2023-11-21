@@ -678,7 +678,7 @@ nav ul li:hover{
 
 .stack {
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
   justify-content: center;
   margin-top: 1rem;
 }
