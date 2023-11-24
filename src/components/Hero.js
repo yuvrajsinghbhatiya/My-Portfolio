@@ -22,10 +22,7 @@ const skillsIcons = [
     img: "https://skillicons.dev/icons?i=react",
     id: 3,
   },
-  {
-    img: "https://skillicons.dev/icons?i=git",
-    id: 3,
-  },
+  
 ];
 
 function Hero() {
