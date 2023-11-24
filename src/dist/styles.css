@@ -327,7 +327,7 @@ nav ul li:hover{
 }
 
 .hero-img {
-  background-image: url("/src/images/profilePic.png");
+  background-image: url("/src/images/profilePic.webp");
   width: 35rem;
   height: 35rem;
   background-size: cover;
