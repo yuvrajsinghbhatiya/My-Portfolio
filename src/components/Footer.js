@@ -5,11 +5,11 @@ function Footer() {
     <>
       <footer>
         <div className="container">
-          <div className="footerc">
+          <div className="footer">
             <h3>
               Copyright © {new Date().getFullYear()}. All rights are reserved
             </h3>
-            <div className="footerc__socials">
+            <div className="footer__socials">
               <a
                 aria-label="linkedin"
                 target="_blank"

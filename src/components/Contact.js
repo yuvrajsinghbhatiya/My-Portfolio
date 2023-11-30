@@ -5,11 +5,9 @@ function Contact() {
     <>
       <section id="contact" className="contact">
         <div className="container">
+          <h3>contact</h3>
           <div className="contact__content">
-            <div className="contact__title">
-              <p>contact</p>
-              <h3>I'm just a click away. Reach out! 📞</h3>
-            </div>
+            <div className="contact__title"></div>
             <div className="contact__icons">
               <div className="contact__icon-box">
                 <span>
