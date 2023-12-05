@@ -24,7 +24,7 @@ Welcome to my portfolio website! This is a showcase of my skills, projects, and 
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yvrjbhatiya/Portfolio
+   git clone https://github.com/yvrjbhatiya/My-Portfolio
 
    ```
 
