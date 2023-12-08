@@ -30,8 +30,6 @@ body {
   background: #f5f5f5;
 }
 
-
-
 .header {
   padding: 0 15rem;
   height: 10rem;
@@ -139,7 +137,6 @@ body {
   }
 }
 
-
 .home-content .subtitle p {
   font-size: 1.9rem;
   font-weight: 400;
@@ -220,8 +217,6 @@ body {
   background: #000000;
 }
 
-
-
 .tech-stack {
   margin-top: 7rem;
   display: flex;
@@ -271,16 +266,16 @@ body {
   justify-content: center;
 }
 
-.project-content .more{
+.project-content .more {
   font-size: 1.8rem;
   color: #2125299d;
   margin-bottom: 4rem;
   max-width: 80%;
-  margin: 7rem auto;
+  margin: 5rem auto;
   text-align: center;
 }
 
-.project-content .more a{
+.project-content .more a {
   text-decoration: none;
   font-weight: 600;
   color: #2125299d;
@@ -289,7 +284,7 @@ body {
   text-transform: uppercase;
 }
 
-.project-content .more a:hover{
+.project-content .more a:hover {
   color: #131517;
 }
 
@@ -322,8 +317,9 @@ body {
 .project-card {
   overflow: hidden;
   border-radius: 3px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-  width: 30rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  width: 33rem;
 }
 
 .project-card .project-img {
@@ -342,7 +338,7 @@ body {
   border-radius: 3px;
 }
 
-.project-card .project-img:hover img{
+.project-card .project-img:hover img {
   transform: translateY(-72%);
 }
 
@@ -360,10 +356,11 @@ body {
 }
 
 .project-card .project-info p {
-  font-size: 1.3rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: #2125299d;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
 }
 
 .project-card .project-info .btn {
@@ -379,7 +376,6 @@ body {
   transition: background 0.3s ease-in-out;
 }
 
-
 .project-card .project-info .btn:hover {
   background: #000000;
 }
@@ -394,8 +390,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-margin-bottom: 5rem;
-
+  margin-bottom: 5rem;
 }
 
 .contact-title h2 {
@@ -429,7 +424,7 @@ margin-bottom: 5rem;
   align-items: center;
   color: #212529;
   font-size: 2rem;
-  line-height: 2.1;
+  line-height: 1.5;
 }
 
 .contact-item p {
@@ -459,15 +454,14 @@ margin-bottom: 5rem;
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
 }
-
 
 .footer-socials {
   display: flex;
   gap: 2rem;
+  justify-content: center;
 }
 
 .footer-socials a {
@@ -483,10 +477,7 @@ margin-bottom: 5rem;
 
 .footer p {
   font-size: 1.6rem;
-  margin-top: 1rem;
 }
-
-
 
 @media (max-width: 992px) {
   .header {
@@ -543,7 +534,7 @@ margin-bottom: 5rem;
   }
 
   .navbar-list li a {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
   }
 
@@ -558,6 +549,19 @@ margin-bottom: 5rem;
     height: 100vh;
   }
 
+  .home-content .title h1 {
+    font-size: 6.2rem;
+  }
+
+  .home-content .subtitle p {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+  }
+
+  .home-socials a {
+    font-size: 3.5rem;
+  }
+
   #about {
     height: 100vh;
     padding: 10rem 0;
@@ -568,11 +572,7 @@ margin-bottom: 5rem;
   }
 
   .about-content .about-subtitle p {
-    font-size: 1.3rem;
-  }
-
-  .about-socials a {
-    font-size: 3rem;
+    font-size: 1.6rem;
   }
 
   .tech-stack {
@@ -583,14 +583,21 @@ margin-bottom: 5rem;
   .tech-stack p {
     border-right: none;
     margin-bottom: 3rem;
-    margin-right: 0;
     padding-bottom: 1rem;
     padding-right: 0;
     border-bottom: 2px solid #21252981;
   }
 
+  .tech-stack .tech-logo ul {
+    margin: auto;
+  }
+
   #project {
     padding: 15rem 0;
+  }
+
+  .project-content {
+    margin-top: 10rem;
   }
 
   .project-content .project-title h3 {
@@ -598,7 +605,7 @@ margin-bottom: 5rem;
   }
 
   .project-content .project-subtitle p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 
   .project-grid {
@@ -610,15 +617,19 @@ margin-bottom: 5rem;
   }
 
   .project-card .project-info h3 {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
   }
 
   .project-card .project-info p {
+    font-size: 1.6rem;
+  }
+
+  .project-content .more {
     font-size: 1.4rem;
   }
 
   .project-card .project-info .btn {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   #contact {
@@ -630,12 +641,12 @@ margin-bottom: 5rem;
   }
 
   .contact-content .contact-subtitle p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .contact-info {
     flex-direction: column;
-    margin-top: 5rem;
+    margin-top: 10rem;
   }
 
   .contact-item {
@@ -643,43 +654,32 @@ margin-bottom: 5rem;
   }
 
   .contact-item p {
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
 
   .contact-item span {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 
   .contact-item i {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
 
-
-  .footer-socials a {
-    font-size: 3rem;
+  .footer-content {
+    display: grid;
+    gap: 3rem;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .footer p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
-
 }
 
 @media (max-width: 576px) {
   .header {
     padding: 0 3rem;
-  }
-
-  .home-content .title h1 {
-    font-size: 6rem;
-  }
-
-  .home-content .subtitle p {
-    font-size: 1.3rem;
-  }
-
-  .home-socials a {
-    font-size: 3rem;
   }
 
   #project {
@@ -690,17 +690,12 @@ margin-bottom: 5rem;
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .project-content .more {
-    font-size: 1.3rem;
-}
-
   #contact {
     padding: 15rem 0;
   }
 
   .contact-info {
     flex-direction: column;
-    margin-top: 5rem;
     justify-content: center;
   }
 
@@ -708,22 +703,5 @@ margin-bottom: 5rem;
     margin-bottom: 2rem;
   }
 
-  .contact-item p {
-    font-size: 1.8rem;
-  }
-
-  .contact-item span {
-    font-size: 1.8rem;
-  }
-
-  .contact-item i {
-    font-size: 1.5rem;
-  }
-
-  .footer-content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
+  
 }
-
-
