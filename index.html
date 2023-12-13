@@ -15,6 +15,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -41,10 +42,20 @@
     <!-- home -->
     <section class="home" id="home">
       <div class="home-content">
-        <div class="title">
+        <div
+          class="title"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="2000"
+        >
           <h1 class="animate-title">Front-end <br />Developer</h1>
         </div>
-        <div class="subtitle">
+        <div
+          class="subtitle"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="2000"
+        >
           <p>
             Hi, I'm Yuvraj Singh Bhatiya. A passionate Front-end Developer based
             in Uttarakhand, India.
@@ -53,10 +64,10 @@
       </div>
 
       <div class="home-socials">
-        <a href="https://www.linkedin.com/in/yvrjbhatiya/"
+        <a href="https://www.linkedin.com/in/yvrjbhatiya/" data-aos="fade-right"
           ><i class="fa-brands fa-linkedin"></i
         ></a>
-        <a href="https://github.com/yvrjbhatiya"
+        <a href="https://github.com/yvrjbhatiya" data-aos="fade-left"
           ><i class="fa-brands fa-github"></i
         ></a>
       </div>
@@ -64,7 +75,12 @@
 
     <!-- about -->
     <section class="about" id="about">
-      <div class="about-content">
+      <div
+        class="about-content"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="2000"
+      >
         <div class="about-title">
           <h2>About Me</h2>
         </div>
@@ -80,7 +96,7 @@
             deliver exceptional web applications.
           </p>
         </div>
-        <div class="about-btn">
+        <div class="about-btn" data-aos="zoom-in">
           <a href="/assets/files/yvrjresume.pdf" target="_blank" class="btn"
             >Download CV</a
           >
@@ -92,19 +108,33 @@
             <ul>
               <img
                 src="https://skillicons.dev/icons?i=html"
-                alt="skill-icon"
-              /><img
+                alt="HTML"
+                data-aos="zoom-in-right"
+                data-aos-delay="100"               
+              />
+              <img
                 src="https://skillicons.dev/icons?i=css"
-                alt="skill-icon"
-              /><img
+                alt="CSS"
+                data-aos="zoom-in-right"
+                data-aos-delay="200"
+              />
+              <img
                 src="https://skillicons.dev/icons?i=tailwind"
-                alt="skill-icon"
-              /><img
+                alt="Tailwind CSS"
+                data-aos="zoom-in-right"
+                data-aos-delay="300"
+              />
+              <img
                 src="https://skillicons.dev/icons?i=js"
-                alt="skill-icon"
-              /><img
+                alt="JavaScript"
+                data-aos="zoom-in-right"
+                data-aos-delay="400"
+              />
+              <img
                 src="https://skillicons.dev/icons?i=react"
-                alt="skill-icon"
+                alt="React"
+                data-aos="zoom-in-right"
+                data-aos-delay="500"
               />
             </ul>
           </div>
@@ -115,17 +145,32 @@
     <!-- project -->
     <section class="project" id="project">
       <div class="project-content">
-        <div class="project-title">
+        <div
+          class="project-title"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="2000"
+        >
           <h2>Projects</h2>
         </div>
-        <div class="project-subtitle">
+        <div
+          class="project-subtitle"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="2000"
+        >
           <p>
             From concept to completion, explore the highlights of my project
             journey!
           </p>
         </div>
         <div class="project-grid">
-          <div class="project-card">
+          <div
+            class="project-card"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <div class="project-img">
               <a href="https://shop-see.vercel.app/" target="_blank">
                 <img src="/assets/img/shopsee.webp" alt="project" />
@@ -157,7 +202,12 @@
             </div>
           </div>
 
-          <div class="project-card">
+          <div
+            class="project-card"
+            data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <div class="project-img">
               <a href="https://bit-trackr.vercel.app/" target="_blank">
                 <img src="/assets/img/bittrackr.webp" alt="project" />
@@ -190,7 +240,12 @@
             </div>
           </div>
 
-          <div class="project-card">
+          <div
+            class="project-card"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <div class="project-img">
               <a
                 href="https://car-rental-topaz-six.vercel.app/"
@@ -205,8 +260,8 @@
               <p>
                 Car Rental is a simple prototype website for renting cars, built
                 with HTML, CSS, and JavaScript. Visitors can explore the
-                available vehicles in the Cars section and
-                easily make reservations
+                available vehicles in the Cars section and easily make
+                reservations
               </p>
               <p>TECH USED | <b>HTML, CSS & JS</b></p>
 
@@ -240,20 +295,40 @@
     <!-- contact -->
     <section class="contact" id="contact">
       <div class="contact-content">
-        <div class="contact-title">
+        <div
+          class="contact-title"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="2000"
+        >
           <h2>Contact Me</h2>
         </div>
-        <div class="contact-subtitle">
+        <div
+          class="contact-subtitle"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          data-aos-duration="2000"
+        >
           <p>Want to work together, please feel free to contact me.</p>
         </div>
         <div class="contact-info">
-          <div class="contact-item">
+          <div
+            class="contact-item"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <p>
               <i class="fa-solid fa-phone-volume"></i> Phone <br />
               <span>+91 7078021174</span>
             </p>
           </div>
-          <div class="contact-item">
+          <div
+            class="contact-item"
+            data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <p>
               <i class="fa-solid fa-envelope"></i> Email <br />
               <span>yuvrajbhatiya57@gmail.com</span>
@@ -279,5 +354,9 @@
     </footer>
 
     <script src="/assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
