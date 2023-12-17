@@ -14,6 +14,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
@@ -46,39 +50,42 @@
 
     <!-- home -->
     <section class="home" id="home">
-      <div class="home-content">
-        <div
-          class="title"
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-bottom"
-          data-aos-duration="1000"
-        >
-          <h1 class="animate-title">Front-end <br />Developer</h1>
-        </div>
+      <div class="home-container">
+        <div class="home-content">
+          <div class="home-main">
+            <div class="home-text">
+              <h1 class="animate-title">Front-end <br />Developer</h1>
+              <p>
+                Hi, I'm Yuvraj Singh Bhatiya. A passionate Front-end Developer
+                based in Uttarakhand, India.
+              </p>
 
-        <div
-          class="subtitle"
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-bottom"
-          data-aos-duration="1000"
-        >
-          <p>
-            Hi, I'm Yuvraj Singh Bhatiya. A passionate Front-end Developer based
-            in Uttarakhand, India.
-          </p>
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/yvrjbhatiya/"
+                  data-aos="fade-right"
+                  data-aos-delay="500"
+                  data-aos-easing="ease-out-cubic"
+                  ><i class="ri-linkedin-box-line"></i
+                ></a>
+                <a
+                  href="https://github.com/yvrjbhatiya"
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                  data-aos-easing="ease-out-cubic"
+                  ><i class="ri-github-line"></i></a>
+                <a
+                  href="./assets/files/yvrjresume.pdf"
+                  data-aos="fade-left"
+                  data-aos-delay="500"
+                  data-aos-easing="ease-out-cubic"
+                  ><i class="ri-arrow-down-circle-line"></i>
+                </a>
+              </span>
+            </div>
+            <div class="home-img"></div>
+          </div>
         </div>
-      </div>
-
-      <div class="home-socials">
-        <a href="https://www.linkedin.com/in/yvrjbhatiya/" data-aos="fade-right" data-aos-delay="500" data-aos-easing="ease-out-cubic"
-          ><i class="fa-brands fa-linkedin"></i
-        ></a>
-        <a href="https://github.com/yvrjbhatiya" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-out-cubic"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-        <a href="./assets/files/yvrjresume.pdf" data-aos="fade-left" data-aos-delay="500" data-aos-easing="ease-out-cubic"
-          ><i class="fa-solid fa-circle-down"></i>
-        </a>
       </div>
     </section>
 
@@ -90,11 +97,11 @@
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="1000"
       >
-        <div class="about-title">
-          <h2>About Me</h2>
-        </div>
         <div class="about-layout">
           <div class="about-left">
+            <div class="about-title">
+              <h2>About Me</h2>
+            </div>
             <div class="about-subtitle">
               <p>
                 As a Front-End Developer equipped with a diverse skill set in
@@ -108,7 +115,7 @@
               </p>
             </div>
             <div class="tech-stack">
-              <p>Tech Stack</p>
+              <p data-aos="zoom-in-right" data-aos-delay="100">Tech Stack</p>
               <div class="tech-logo">
                 <ul>
                   <img
@@ -309,47 +316,54 @@
 
     <!-- contact -->
     <section class="contact" id="contact">
-      <div
-        class="contact-head"
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom"
-        data-aos-duration="1000"
-      >
-        <div class="contact-title">
-          <h2>Contact Me</h2>
-        </div>
-        <div class="contact-subtitle">
-          <p>Want to work together? Please feel free to contact me.</p>
-        </div>
-      </div>
-
       <div class="contact-content">
         <div
-          class="contact-info"
-          data-aos="zoom-in-up"
-          data-aos-easing="ease-out-cubic"
+          class="contact-layout"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
           data-aos-duration="1000"
         >
-          <div class="contact-item">
-            <p>
-              <i class="fa-solid fa-phone-volume"></i> Phone <br />
-              <span>+91 7078021174</span>
-            </p>
+          <div class="contact-left">
+            <div class="contact-title">
+              <h2>Contact Me</h2>
+            </div>
+            <div class="contact-subtitle">
+              <p>Want to work together? Please feel free to contact me.</p>
+            </div>
+            <div class="contact-info">
+              <div
+                class="contact-item"
+                data-aos="zoom-in-right"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                <p>
+                  <i class="ri-map-pin-line"></i> LOCATION <br />
+                  <a href="https://maps.app.goo.gl/idSaitXuHmyvn6S78">Uttarakhand, India</a>
+                </p>
+              </div>
+              <div
+                class="contact-item"
+                data-aos="zoom-in-left"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+              >
+                <p>
+                  <i class="ri-mail-line"></i> EMAIL <br />
+                  <a href="mailto:yuvrajbhatiya57@gmail.com">yuvrajbhatiya57@gmail.com</a>
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="contact-item">
-            <p>
-              <i class="fa-solid fa-envelope"></i> Email <br />
-              <span>yuvrajbhatiya57@gmail.com</span>
-            </p>
+
+          <div
+            class="contact-right"
+            data-aos="zoom-in-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          >
+            <img src="./assets/img/contact.svg" alt="Contact Illustration" />
           </div>
-        </div>
-        <div
-          class="contact-illustration"
-          data-aos="zoom-in-up"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="1000"
-        >
-          <img src="./assets/img/contact.svg" alt="Contact Illustration" />
         </div>
       </div>
     </section>
