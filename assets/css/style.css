@@ -5,20 +5,19 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Space Grotesk", sans-serif;
-  scroll-behavior: smooth!important;
+  scroll-behavior: smooth !important;
 }
 
 html {
-  font-size: 62.5%;
-  letter-spacing: 1px;
+  font-size: 65%;
   word-spacing: 1px;
   overflow-x: hidden;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth!important;
 }
 
 ::-webkit-scrollbar {
   width: 5px;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth!important;
 }
 
 ::-webkit-scrollbar-track {
@@ -36,7 +35,7 @@ body {
 
 .header {
   padding: 0 15rem;
-  height: 10rem;
+  height: 8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -65,7 +64,7 @@ body {
 }
 
 .navbar-list li a {
-  color: #2d2e32;
+  color: #2125299d;
   text-decoration: none;
   font-size: 1.8rem;
   font-weight: 500;
@@ -73,8 +72,9 @@ body {
   text-transform: uppercase;
 }
 
+
 .navbar-list li a:hover {
-  font-weight: bolder;
+  font-weight: bold;
   color: #000000;
 }
 
@@ -95,33 +95,34 @@ body {
 
 #home {
   scroll-snap-type: y mandatory;
-  padding: 7rem 10rem;
+  padding: 3rem 10rem;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   position: relative;
   width: 100%;
+  height: 100vh;
 }
 
 .home-container {
   margin: 0 auto;
   max-width: 107rem;
   padding: 0 4rem;
+  
 }
 
 .home-content {
   align-items: center;
   display: flex;
-  gap: 10rem;
-  height: 65rem;
   justify-content: center;
   position: relative;
+  height: 100vh;
+
 }
 
 .home-main {
   align-items: center;
   display: flex;
-  gap: 15rem;
+  gap: 10rem;
   justify-content: center;
   position: relative;
 }
@@ -140,12 +141,12 @@ body {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 3px solid #2d2e32;
+  border: 2px solid #2d2e32;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  height: 33rem;
+  height: 32rem;
   position: relative;
   transition: all 1s ease-in-out;
-  width: 35rem;
+  width: 32rem;
 }
 
 @-webkit-keyframes morph {
@@ -182,56 +183,32 @@ body {
   color: #212529;
   margin-bottom: 2rem;
   text-transform: uppercase;
+  line-height: 1.2;
 }
 
-.animate-title {
-  text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #000000 0%,
-    #0d305e 29%,
-    #13acff 67%,
-    #00e1ff 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
-}
-
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-}
 
 .home-text p {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 400;
   color: #2125299d;
   line-height: 1.6;
 }
 
-.home-text span {
-  cursor: pointer;
-  gap: 1.3rem;
-  margin: 2.5rem 1rem;
+.home-socials {
+  display: flex;
+  gap: 1.2rem;
+  margin: 2.5rem 0;
 }
 
-.home-text span a {
-  color: #2d2e32;
+.home-socials a {
+  color: #2125299d;
   text-decoration: none;
   font-size: 3rem;
 }
 
-.home-text span a:hover {
+.home-socials a:hover {
+  font-weight: bold;
   color: #000000;
-  font-weight: bolder;
 }
 
 #about {
@@ -306,7 +283,7 @@ body {
   color: #212529;
   margin-bottom: 4rem;
   max-width: 80%;
-  margin: 2rem 2rem;
+  margin: 2rem auto;
   text-align: center;
   text-transform: uppercase;
   border-right: 2px solid #21252981;
@@ -317,8 +294,8 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  margin-left: 1.5rem;
+  gap: 1.2rem;
+  margin-left: 2rem;
 }
 
 .tech-stack img {
@@ -539,12 +516,12 @@ body {
 .contact-item a {
   font-size: 1.8rem;
   font-weight: 400;
-  color: #2d2e32;
+  color: #2125299d;
   text-decoration: none;
 }
 
 .contact-item a:hover {
-  font-weight: bolder;
+  font-weight: bold;
   color: #000000;
 }
 
@@ -600,21 +577,19 @@ body {
     margin-top: 5px;
   }
 
-  #home{
+  #home {
     padding: 15rem 0;
   }
 
   .home-content {
-  
     flex-direction: column;
-    gap: 3rem;
     height: auto;
     text-align: center;
   }
 
   .home-main {
     flex-direction: column-reverse;
-    gap: 3rem;
+    gap: 5rem;
     height: auto;
     text-align: center;
   }
@@ -623,9 +598,7 @@ body {
     font-size: 12rem;
   }
 
-  .home-right {
-    display: none;
-  }
+
 
   .about-left {
     width: 100%;
@@ -694,33 +667,26 @@ body {
     visibility: visible;
     pointer-events: auto;
   }
-  
-  #home{
-    height: 100vh;
-    /* padding: 15rem 0; */
-  }
 
+  #home {
+    padding: 10rem 0;
+  }
 
   .home-container {
-    height: 100vh;
     display: flex;
     flex-direction: column-reverse;
-    margin: 13rem auto;
-    max-width: 107rem;
-    padding: 0 4rem;
+    padding: 0 3rem;
   }
 
-  .home-text{
+  .home-text {
     width: -webkit-fill-available;
   }
 
-  .home-text span {
+  .home-text .home-socials {
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-
- 
 
   .home-text h1 {
     font-size: 8rem;
@@ -728,7 +694,6 @@ body {
 
   .home-text p {
     font-size: 1.7rem;
-    margin-top: 2rem;
   }
 
   .home-socials a {
@@ -736,8 +701,8 @@ body {
   }
 
   #about {
-    padding: 15rem 0;
-    margin-top: 15rem;
+    padding: 10rem 0;
+    margin-top: 10rem;
   }
 
   .about-left {
@@ -775,10 +740,6 @@ body {
     padding: 10rem 0;
   }
 
-  /* .project-content {
-    margin-top: 10rem;
-  } */
-
   .project-content .project-title h3 {
     font-size: 6rem;
   }
@@ -791,7 +752,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .project-card{
+  .project-card {
     width: 70%;
     margin: auto;
   }
@@ -867,10 +828,7 @@ body {
 }
 
 @media (max-width: 576px) {
-
-  .home-container{
-    margin: 0rem auto;
-  }
+  
   .header {
     padding: 0 3rem;
   }
@@ -881,28 +839,27 @@ body {
 
   .home-main {
     flex-direction: column-reverse;
-    gap: 3rem;
     height: auto;
     text-align: center;
   }
-  .home-img{
+  .home-img {
     width: 30rem;
     height: 30rem;
   }
   .home-text h1 {
-    font-size: 5rem;
+    font-size: 5.5rem;
   }
 
   .project-grid {
     grid-template-columns: repeat(1, 1fr);
   }
-  .project-card{
+  .project-card {
     width: 100%;
     margin: auto;
   }
 
   #contact {
-    padding: 15rem 0;
+    padding: 10rem 0;
   }
 
   .contact-info {
@@ -914,5 +871,3 @@ body {
     margin-bottom: 2rem;
   }
 }
-
-
