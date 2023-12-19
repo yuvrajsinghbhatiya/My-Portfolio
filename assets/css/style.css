@@ -9,15 +9,15 @@
 }
 
 html {
-  font-size: 65%;
+  font-size: 62.5%;
   word-spacing: 1px;
   overflow-x: hidden;
-  scroll-behavior: smooth!important;
+  scroll-behavior: smooth !important;
 }
 
 ::-webkit-scrollbar {
   width: 5px;
-  scroll-behavior: smooth!important;
+  scroll-behavior: smooth !important;
 }
 
 ::-webkit-scrollbar-track {
@@ -25,7 +25,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #13acff;
+  background-color: #2125299d;
 }
 
 body {
@@ -72,7 +72,6 @@ body {
   text-transform: uppercase;
 }
 
-
 .navbar-list li a:hover {
   font-weight: bold;
   color: #000000;
@@ -107,7 +106,6 @@ body {
   margin: 0 auto;
   max-width: 107rem;
   padding: 0 4rem;
-  
 }
 
 .home-content {
@@ -116,13 +114,12 @@ body {
   justify-content: center;
   position: relative;
   height: 100vh;
-
 }
 
 .home-main {
   align-items: center;
   display: flex;
-  gap: 10rem;
+  gap: 15rem;
   justify-content: center;
   position: relative;
 }
@@ -130,8 +127,9 @@ body {
 .home-text {
   display: flex;
   flex-direction: column;
-  max-width: 55rem;
+  max-width: 50%;
   position: relative;
+  margin-top: 2rem;
 }
 
 .home-img {
@@ -178,14 +176,13 @@ body {
 }
 
 .home-text h1 {
-  font-size: 8rem;
+  font-size: 7.5rem;
   font-weight: bolder;
   color: #212529;
   margin-bottom: 2rem;
   text-transform: uppercase;
   line-height: 1.2;
 }
-
 
 .home-text p {
   font-size: 1.7rem;
@@ -594,11 +591,9 @@ body {
     text-align: center;
   }
 
-  .home-left .title h1 {
-    font-size: 12rem;
+  .home-text h1 {
+    font-size: 6rem;
   }
-
-
 
   .about-left {
     width: 100%;
@@ -679,7 +674,7 @@ body {
   }
 
   .home-text {
-    width: -webkit-fill-available;
+    max-width: 100%;
   }
 
   .home-text .home-socials {
@@ -689,7 +684,7 @@ body {
   }
 
   .home-text h1 {
-    font-size: 8rem;
+    font-size: 6rem;
   }
 
   .home-text p {
@@ -828,7 +823,6 @@ body {
 }
 
 @media (max-width: 576px) {
-  
   .header {
     padding: 0 3rem;
   }
