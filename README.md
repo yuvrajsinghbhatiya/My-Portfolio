@@ -4,10 +4,7 @@ Welcome to my portfolio website! This is a showcase of my skills, projects, and 
 
 ## Technologies Used
 
-- **HTML**: The standard markup language for web pages.
-- **CSS3**: The style sheet language for describing the presentation of web pages.
-- **JavaScript**: A programming language that conforms to the ECMAScript specification.
-
+- **React**
 
 ## Key Sections
 
@@ -17,25 +14,29 @@ Welcome to my portfolio website! This is a showcase of my skills, projects, and 
 
 - **Contact**: Reach out to me! Whether it's for a potential collaboration, a job opportunity, or just to say hello, I'm always open to new connections.
 
-
-
 ## Getting Started
 
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yvrjbhatiya/My-Portfolio
+   git clone https://github.com/yuvrajsinghbhatiya/My-Portfolio
 
    ```
 
-2. **Start the Live Server**:
+2. **Install Dependencies:**:
+
+   ````bash
+    cd My-Portfolio
+    npm install
+    ```
+
+3. **Start the Development Server**:
 
    ```bash
-   You can use live server extension in VS Code or use any other method to run the website.
-   ```
+    npm start
+   ````
 
-
-## Hosted Url- 
+## Hosted Url-
 
    ```
    https://yuvrajsinghbhatiya.vercel.app/
