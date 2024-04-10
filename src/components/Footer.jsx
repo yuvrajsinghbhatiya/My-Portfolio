@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-socials">
-          <a href="https://www.linkedin.com/in/yvrjbhatiya/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/yuvrajsinghbhatiya/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
           <a href="https://github.com/yuvrajsinghbhatiya" target="_blank" rel="noopener noreferrer">
