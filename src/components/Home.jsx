@@ -30,7 +30,7 @@ const Home = () => {
 
               <div className="home-socials">
                 <a
-                  href="https://www.linkedin.com/in/yuvrajsinghbhatiya/"
+                  href="https://www.linkedin.com/in/yvrjbhatiya/"
                   data-aos="fade-right"
                   data-aos-delay="400"
                   data-aos-easing="ease-out-cubic"
@@ -57,13 +57,6 @@ const Home = () => {
                 </a>
               </div>
             </div>
-
-            <div
-              className="home-img"
-              data-aos="zoom-in"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000"
-            ></div>
           </div>
         </div>
       </div>

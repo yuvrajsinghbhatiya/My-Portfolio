@@ -94,8 +94,7 @@ body {
 
 .home-container {
   margin: 0 auto;
-  max-width: 107rem;
-  padding: 0 4rem;
+  padding: 0 auto;
 }
 
 .home-content {
@@ -108,7 +107,6 @@ body {
 
 .home-main {
   display: flex;
-  gap: 15rem;
   justify-content: center;
   position: relative;
 }
@@ -118,56 +116,13 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 50%;
+  max-width: 80%;
   position: relative;
   margin-top: 2rem;
 }
 
-.home-img {
-  -webkit-animation: morph 5s ease-in-out infinite;
-  animation: morph 5s ease-in-out infinite;
-  background-image: url("./img/profile-pic.jpeg");
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 2px solid #2d2e32;
-  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  height: 32rem;
-  position: relative;
-  transition: all 1s ease-in-out;
-  width: 32rem;
-}
-
-@-webkit-keyframes morph {
-  0% {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  }
-
-  50% {
-    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-  }
-
-  to {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  }
-}
-
-@keyframes morph {
-  0% {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  }
-
-  50% {
-    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-  }
-
-  to {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  }
-}
-
 .home-text h1 {
-  font-size: 7.5rem;
+  font-size: 9rem;
   font-weight: bolder;
   color: #212529;
   margin-bottom: 2rem;
@@ -176,7 +131,7 @@ body {
 }
 
 .home-text p {
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 400;
   color: #2125299d;
   line-height: 1.6;
@@ -573,22 +528,20 @@ body {
   }
 
   .home-content {
-    flex-direction: column;
     height: auto;
     text-align: center;
   }
 
   .home-main {
-    flex-direction: column-reverse;
-    gap: 5rem;
     height: auto;
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin: 5rem 0;
   }
 
   .home-text h1 {
-    font-size: 6rem;
+    font-size: 8rem;
   }
 
   .about-left {
@@ -685,8 +638,8 @@ body {
 
   .home-container {
     display: flex;
-    flex-direction: column-reverse;
     padding: 0 3rem;
+    margin: 5rem 0;
   }
 
   .home-text {
@@ -700,7 +653,7 @@ body {
   }
 
   .home-text h1 {
-    font-size: 6rem;
+    font-size: 8rem;
   }
 
   .home-text p {
@@ -713,7 +666,6 @@ body {
 
   #about {
     padding: 10rem 0;
-    margin-top: 10rem;
   }
 
   .about-left {
@@ -844,20 +796,16 @@ body {
   }
 
   #project {
-    padding: 15rem 0;
+    margin: 15rem 0;
   }
 
   .home-main {
-    flex-direction: column-reverse;
     height: auto;
     text-align: center;
   }
-  .home-img {
-    width: 30rem;
-    height: 30rem;
-  }
+
   .home-text h1 {
-    font-size: 5.5rem;
+    font-size: 6rem;
   }
 
   .project-grid {
