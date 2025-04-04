@@ -1,8 +1,9 @@
 import React from 'react';
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <div className="footer-content">
@@ -14,10 +15,11 @@ const Footer = () => {
             <FaGithub />
           </a>
         </div>
-        <p>&copy; 2024 yuvraj. All rights reserved.</p>
+        <p>&copy; {currentYear} yuvraj. All rights reserved.</p>
       </div>
     </footer>
   );
 };
 
 export default Footer;
+
