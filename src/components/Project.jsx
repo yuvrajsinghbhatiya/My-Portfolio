@@ -1,6 +1,6 @@
 import React from "react";
 import Project1 from "../img/shopsee.webp";
-import Project2 from "../img/bittrackr.webp";
+import Project2 from "../img/edumart.webp";
 import Project3 from "../img/carrental.webp";
 
 const Project = () => {
@@ -89,18 +89,18 @@ const Project = () => {
               </a>
             </div>
             <div className="project-info">
-              <h3>BitTrackr</h3>
+              <h3>Edumart</h3>
               <p>
-                BitTrackr is a crypto app that provides users with real-time,
-                accurate updates on cryptocurrency prices, market caps, trading
-                volumes, and other key metrics.
+                EduMart is an e-commerce app for students that offers a wide
+                range of educational products, including books, stationery,
+                and study materials.
               </p>
               <p>
-                TECH USED | <b>React</b>
+                TECH USED | <b>React, Node.js, MongoDB</b>
               </p>
               <div className="project-btn">
                 <a
-                  href="https://github.com/yuvrajsinghbhatiya/BitTrackr"
+                  href="https://github.com/yuvrajsinghbhatiya/Edumart"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn"
@@ -108,7 +108,7 @@ const Project = () => {
                   View Code
                 </a>
                 <a
-                  href="https://bit-trackr.vercel.app/"
+                  href="https://edumart-six.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn"

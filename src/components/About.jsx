@@ -18,7 +18,7 @@ const About = () => {
             <div className="about-subtitle">
               <p>
                 As a Front-End Developer equipped with a diverse skill set in
-                HTML, CSS, JavaScript, Tailwind, and React. My proficiency lies
+                HTML, CSS, JavaScript, Tailwind, React and Node.JS. My proficiency lies
                 in creating and managing responsive websites that prioritize
                 seamless user interactions. I specialize in developing dynamic
                 and captivating interfaces, employing clean and optimized code
@@ -63,7 +63,14 @@ const About = () => {
                     data-aos="zoom-in-right"
                     data-aos-delay="500"
                   />
+                  <img
+                    src="https://skillicons.dev/icons?i=nodejs"
+                    alt="Node.js"
+                    data-aos="zoom-in-right"
+                    data-aos-delay="600"
+                  />
                 </ul>
+
               </div>
             </div>
           </div>
