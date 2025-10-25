@@ -3,10 +3,20 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaArrowDown } from "react-icons/fa";
 import resume from "../files/resume.pdf";
+import bgIMG from "../img/bg-light.webp";
 
 const Home = () => {
   return (
-    <section className="home" id="home">
+    <section
+      className="home"
+      id="home"
+      style={{
+        backgroundImage: `url(${bgIMG})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        
+      }}
+    >
       <div className="home-container">
         <div className="home-content">
           <div className="home-main">
@@ -15,8 +25,9 @@ const Home = () => {
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom"
                 data-aos-duration="1000"
+                style={{ textAlign: "center" }}
               >
-                Front-end <br />
+                Web <br />
                 Developer
               </h1>
               <p
@@ -24,8 +35,8 @@ const Home = () => {
                 data-aos-anchor-placement="center-bottom"
                 data-aos-duration="1000"
               >
-                Hi, I'm Yuvraj Singh Bhatiya. A passionate Front-end Developer
-                based in Uttarakhand, India.
+                Hi, I'm Yuvraj Singh Bhatiya. A passionate Web Developer based
+                in Uttarakhand, India.
               </p>
 
               <div className="home-socials">

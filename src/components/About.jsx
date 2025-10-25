@@ -17,14 +17,18 @@ const About = () => {
             </div>
             <div className="about-subtitle">
               <p>
-                As a Front-End Developer equipped with a diverse skill set in
-                HTML, CSS, JavaScript, Tailwind, React and Node.JS. My proficiency lies
-                in creating and managing responsive websites that prioritize
-                seamless user interactions. I specialize in developing dynamic
-                and captivating interfaces, employing clean and optimized code
-                alongside the latest development tools and techniques. I thrive
-                in collaborative environments, working effectively with
-                cross-functional teams to deliver exceptional web applications.
+                Hey, I’m Yuvraj Bhatiya — a web developer who loves turning
+                ideas into clean, functional, and visually appealing websites. I
+                enjoy crafting responsive interfaces using HTML, CSS,
+                JavaScript, ReactJS, and Node.js, making sure every
+                project feels smooth and engaging. I believe great web
+                experiences come from combining design, logic, and performance —
+                and that’s what I focus on in every build. Currently pursuing my
+                Master of Computer Applications (MCA), I’m constantly exploring
+                new tools and techniques to push my creativity and code further.
+                When I’m not coding, you’ll probably find me enjoying nature,
+                chilling with close friends, or just sketching new ideas for my
+                next project.
               </p>
             </div>
             <div className="tech-stack">
@@ -69,8 +73,20 @@ const About = () => {
                     data-aos="zoom-in-right"
                     data-aos-delay="600"
                   />
+                  <img
+                    src="https://skillicons.dev/icons?i=mongodb"
+                    alt="MongoDB"
+                    data-aos="zoom-in-right"
+                    data-aos-delay="700"
+                  />
+                  <img
+                    src="https://skillicons.dev/icons?i=github"
+                    alt="GitHub"
+                    data-aos="zoom-in-right"
+                    data-aos-delay="800"
+                  />
+                  
                 </ul>
-
               </div>
             </div>
           </div>

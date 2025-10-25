@@ -81,7 +81,7 @@ const Project = () => {
           >
             <div className="project-img">
               <a
-                href="https://bit-trackr.vercel.app/"
+                href="https://edumart-six.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
