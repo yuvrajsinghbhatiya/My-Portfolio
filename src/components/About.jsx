@@ -17,6 +17,7 @@ const About = () => {
             </div>
             <div className="about-subtitle">
               <p>
+<<<<<<< HEAD
                 Hey, I’m Yuvraj Bhatiya — a web developer who loves turning
                 ideas into clean, functional, and visually appealing websites. I
                 enjoy crafting responsive interfaces using HTML, CSS,
@@ -29,6 +30,16 @@ const About = () => {
                 When I’m not coding, you’ll probably find me enjoying nature,
                 chilling with close friends, or just sketching new ideas for my
                 next project.
+=======
+                As a Front-End Developer equipped with a diverse skill set in
+                HTML, CSS, JavaScript, Tailwind, React and Node.JS. My proficiency lies
+                in creating and managing responsive websites that prioritize
+                seamless user interactions. I specialize in developing dynamic
+                and captivating interfaces, employing clean and optimized code
+                alongside the latest development tools and techniques. I thrive
+                in collaborative environments, working effectively with
+                cross-functional teams to deliver exceptional web applications.
+>>>>>>> 662176c7e5714f4e78f67d4b288e3bdff5975f1e
               </p>
             </div>
             <div className="tech-stack">
@@ -73,6 +84,7 @@ const About = () => {
                     data-aos="zoom-in-right"
                     data-aos-delay="600"
                   />
+<<<<<<< HEAD
                   <img
                     src="https://skillicons.dev/icons?i=mongodb"
                     alt="MongoDB"
@@ -87,6 +99,10 @@ const About = () => {
                   />
                   
                 </ul>
+=======
+                </ul>
+
+>>>>>>> 662176c7e5714f4e78f67d4b288e3bdff5975f1e
               </div>
             </div>
           </div>
