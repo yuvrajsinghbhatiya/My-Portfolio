@@ -9,10 +9,6 @@ import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 662176c7e5714f4e78f67d4b288e3bdff5975f1e
 const App = () => {
   
   useEffect(() => {
