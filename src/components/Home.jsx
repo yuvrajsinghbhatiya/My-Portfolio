@@ -1,22 +1,45 @@
-import React from "react";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaArrowDown } from "react-icons/fa";
+import React, { useEffect, useState } from "react";
+import { FaLinkedin, FaGithub, FaArrowDown } from "react-icons/fa";
 import resume from "../files/resume.pdf";
-import bgIMG from "../img/bg-light.webp";
+import bgLight from "../img/bg-light.webp";
+import bgDark from "../img/bg-dark.webp";
 
 const Home = () => {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    const theme = document.documentElement.getAttribute("data-theme");
+    setIsDarkMode(theme === "dark");
+
+    const observer = new MutationObserver(() => {
+      const updatedTheme = document.documentElement.getAttribute("data-theme");
+      setIsDarkMode(updatedTheme === "dark");
+    });
+
+    observer.observe(document.documentElement, { attributes: true });
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section
-      className="home"
-      id="home"
-      style={{
-        backgroundImage: `url(${bgIMG})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        
-      }}
-    >
+    <section className="home" id="home">
+      {/* Light Background */}
+      <div
+        className="bg-layer"
+        style={{
+          backgroundImage: `url(${bgLight})`,
+          opacity: isDarkMode ? 0 : 1,
+        }}
+      />
+      {/* Dark Background */}
+      <div
+        className="bg-layer"
+        style={{
+          backgroundImage: `url(${bgDark})`,
+          opacity: isDarkMode ? 1 : 0,
+        }}
+      />
+
       <div className="home-container">
         <div className="home-content">
           <div className="home-main">
@@ -35,8 +58,7 @@ const Home = () => {
                 data-aos-anchor-placement="center-bottom"
                 data-aos-duration="1000"
               >
-                Hi, I'm Yuvraj Singh Bhatiya. A passionate Front-end Developer based
-                in Uttarakhand, India.
+                Crafting websites that are functional, engaging, and visually appealing.
               </p>
 
               <div className="home-socials">

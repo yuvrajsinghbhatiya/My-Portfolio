@@ -17,7 +17,7 @@ const About = () => {
             </div>
             <div className="about-subtitle">
               <p>
-                Hi, I’m Yuvraj Bhatiya — a front-end developer who loves
+                Hi, I’m Yuvraj — a front-end developer who loves
                 creating beautiful, responsive, and user-friendly websites. I
                 work mainly with ReactJS, JavaScript, HTML, CSS, and Tailwind
                 CSS, focusing on writing clean, efficient code and crafting
