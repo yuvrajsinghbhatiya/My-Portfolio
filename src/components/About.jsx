@@ -17,18 +17,15 @@ const About = () => {
             </div>
             <div className="about-subtitle">
               <p>
-                Hey, I’m Yuvraj Bhatiya — a web developer who loves turning
-                ideas into clean, functional, and visually appealing websites. I
-                enjoy crafting responsive interfaces using HTML, CSS,
-                JavaScript, ReactJS, and Node.js, making sure every
-                project feels smooth and engaging. I believe great web
-                experiences come from combining design, logic, and performance —
-                and that’s what I focus on in every build. Currently pursuing my
-                Master of Computer Applications (MCA), I’m constantly exploring
-                new tools and techniques to push my creativity and code further.
-                When I’m not coding, you’ll probably find me enjoying nature,
-                chilling with close friends, or just sketching new ideas for my
-                next project.
+                Hi, I’m Yuvraj Bhatiya — a front-end developer who loves
+                creating beautiful, responsive, and user-friendly websites. I
+                work mainly with ReactJS, JavaScript, HTML, CSS, and Tailwind
+                CSS, focusing on writing clean, efficient code and crafting
+                smooth digital experiences. I’m passionate about design,
+                attention to detail, and bringing ideas to life on screen. When
+                I’m not coding, I enjoy exploring nature and finding inspiration
+                in simple, peaceful moments — which often reflect in my design
+                style.
               </p>
             </div>
             <div className="tech-stack">
@@ -66,26 +63,8 @@ const About = () => {
                     alt="React"
                     data-aos="zoom-in-right"
                     data-aos-delay="500"
-                  />
-                  <img
-                    src="https://skillicons.dev/icons?i=nodejs"
-                    alt="Node.js"
-                    data-aos="zoom-in-right"
-                    data-aos-delay="600"
-                  />
-                  <img
-                    src="https://skillicons.dev/icons?i=mongodb"
-                    alt="MongoDB"
-                    data-aos="zoom-in-right"
-                    data-aos-delay="700"
-                  />
-                  <img
-                    src="https://skillicons.dev/icons?i=github"
-                    alt="GitHub"
-                    data-aos="zoom-in-right"
-                    data-aos-delay="800"
-                  />
-                  
+                  /> 
+                
                 </ul>
               </div>
             </div>

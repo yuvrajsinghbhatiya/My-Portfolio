@@ -27,7 +27,7 @@ const Home = () => {
                 data-aos-duration="1000"
                 style={{ textAlign: "center" }}
               >
-                Web <br />
+                Front-end <br />
                 Developer
               </h1>
               <p
@@ -35,7 +35,7 @@ const Home = () => {
                 data-aos-anchor-placement="center-bottom"
                 data-aos-duration="1000"
               >
-                Hi, I'm Yuvraj Singh Bhatiya. A passionate Web Developer based
+                Hi, I'm Yuvraj Singh Bhatiya. A passionate Front-end Developer based
                 in Uttarakhand, India.
               </p>
 
